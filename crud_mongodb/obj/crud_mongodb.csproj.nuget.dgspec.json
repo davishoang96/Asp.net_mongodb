@@ -1,0 +1,79 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/crystark/Projects/crud_mongodb/crud_mongodb/crud_mongodb.csproj": {}
+  },
+  "projects": {
+    "/Users/crystark/Projects/crud_mongodb/crud_mongodb/crud_mongodb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/crystark/Projects/crud_mongodb/crud_mongodb/crud_mongodb.csproj",
+        "projectName": "crud_mongodb",
+        "projectPath": "/Users/crystark/Projects/crud_mongodb/crud_mongodb/crud_mongodb.csproj",
+        "packagesPath": "/Users/crystark/.nuget/packages/",
+        "outputPath": "/Users/crystark/Projects/crud_mongodb/crud_mongodb/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/crystark/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "MongoDB.Driver.Core": {
+              "target": "Package",
+              "version": "[2.10.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
